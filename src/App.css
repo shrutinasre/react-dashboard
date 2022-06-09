@@ -1,0 +1,76 @@
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#root {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100vh;
+  max-height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.sidebar {
+  width: 280px;
+}
+.main-wrapper {
+  width: 100%;
+}
+
+.main-wrapper .page {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.app-header .nav-link {
+  text-align: center;
+}
+.border-r {
+  border-right: 1px solid #4e4b4b !important;
+}
+
+.border-l {
+  border-left: 1px solid #4e4b4b !important;
+}
+
+.main-wrapper .page {
+  padding: 20px;
+}
+.homepage .homepage-search {
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.b-shadow {
+  box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+}
+
+.b-radius {
+  border-radius: 5px;
+}
+
+.bg-dark {
+  background-color: #15023e !important;
+}
+
+.btn-dark {
+  background-color: #15023e !important;
+  border-color: #15023e !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #15023e;
+  cursor: pointer;
+}
+a:hover {
+  color: #7f5ad0 !important;
+}
+
+a.nav-link.active:hover {
+  color: #16131c !important;
+}
+
+.hide {
+  display: none !important;
+}
